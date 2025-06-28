@@ -1,12 +1,9 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.html',
-  styleUrl: './app.css'
+  template: `
+    Welcome to Angular!
+  `,
 })
-export class App {
-  protected title = 'book-ui';
-}
+export class App {}
